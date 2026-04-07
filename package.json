@@ -1,0 +1,22 @@
+{
+  "name": "norsecoin-solana",
+  "version": "1.0.0",
+  "description": "NorseCoin on Solana - Viking-themed token with staking, NFTs, and presale",
+  "scripts": {
+    "build": "anchor build",
+    "test": "anchor test",
+    "deploy:devnet": "anchor deploy --provider.cluster devnet",
+    "deploy:mainnet": "anchor deploy --provider.cluster mainnet"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.0",
+    "@solana/web3.js": "^1.87.0",
+    "@solana/spl-token": "^0.4.0"
+  },
+  "devDependencies": {
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.3.0",
+    "@types/mocha": "^10.0.0",
+    "chai": "^4.3.0"
+  }
+}
